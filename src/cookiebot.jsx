@@ -1,10 +1,8 @@
-import React from 'react';
-import { CookieBot } from 'react-cookiebot';
+import CookieBot from 'react-cookiebot';
 
-export const CookieBotAppExtra = ({ location, content }) => {
-  const domainGroupId = 'ecff8d69-d1cb-416f-a86f-ba55b3f38707';
+import config from '@plone/volto/registry';
 
+export const CookieBotAppExtra = (props) => {
+  const domainGroupId = config.settings.cookiebotDomainGroupId;
   return <CookieBot domainGroupId={domainGroupId} />;
 };
-
-export default CookieBotAppExtra;
