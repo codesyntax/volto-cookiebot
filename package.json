@@ -1,5 +1,5 @@
 {
-  "name": "@codesyntax/volto-cookiebot",
+  "name": "volto-cookiebot",
   "version": "0.1.0",
   "description": "volto-cookiebot: Volto add-on",
   "main": "src/index.js",
