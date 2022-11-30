@@ -11,12 +11,17 @@
     "react"
   ],
   "scripts": {
+    "release": "release-it",
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
   },
   "devDependencies": {
-    "@plone/scripts": "*"
+    "@plone/scripts": "*",
+    "release-it": "^15.5.0"
   },
   "dependencies": {
     "react-cookiebot": "1.0.10"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
