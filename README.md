@@ -11,7 +11,7 @@ Add `@codesyntax/volto-cookiebot` to your project dependencies and to the `addon
 
 Set your cookiebot project id in the volto settings:
 
-```
+```jsx
 const applyConfig = (config) => {
 
   config.settings = {
