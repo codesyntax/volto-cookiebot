@@ -25,3 +25,4 @@ export default applyConfig;
 
 ```
 
+Cookiebot will be added to your site using the `appExtras` mechanism of Volto.
