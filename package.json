@@ -1,5 +1,5 @@
 {
-  "name": "volto-cookiebot",
+  "name": "@codesyntax/volto-cookiebot",
   "version": "0.1.0",
   "description": "volto-cookiebot: Volto add-on",
   "main": "src/index.js",
@@ -11,12 +11,17 @@
     "react"
   ],
   "scripts": {
+    "release": "release-it",
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
   },
   "devDependencies": {
-    "@plone/scripts": "*"
+    "@plone/scripts": "*",
+    "release-it": "^15.5.0"
   },
   "dependencies": {
-    "react-cookiebot": "1.0.8"
+    "react-cookiebot": "1.0.10"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,14 +1,12 @@
-import { CookieBotAppExtra } from './';
+import { CookieBotAppExtra } from './cookiebot';
 
-const applyConfig = (config) => {
+export default function applyConfig(config) {
   config.settings.appExtras = [
-    ...applyConfig(config.settings.appExtras || []),
+    ...(config.settings.appExtras || []),
     {
-      match: '',
+      match: '*',
       component: CookieBotAppExtra,
     },
   ];
   return config;
-};
-
-export default applyConfig;
+}
