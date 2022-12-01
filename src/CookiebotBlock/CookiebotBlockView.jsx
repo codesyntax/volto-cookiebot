@@ -9,9 +9,7 @@ const CookiebotBlock = (props) => {
 
   useEffect(() => {
     try {
-      console.log(language);
       const cookieDeclaration = document.getElementById('cookie-declaration');
-
       const inlineScript = document.createElement('script');
       inlineScript.id = 'CookieDeclaration';
       inlineScript.src = `https://consent.cookiebot.com/${domainGroupId}/cd.js`;
