@@ -26,3 +26,8 @@ export default applyConfig;
 ```
 
 Cookiebot will be added to your site using the `appExtras` mechanism of Volto.
+
+## Coookie declaration page
+
+This addon also provides a Block that renders the cookie declaration page that is created automatically by Cookiebot. You can add it wherever your site needs to have the cookie declaration page.
+
