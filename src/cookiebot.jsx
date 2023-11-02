@@ -8,6 +8,6 @@ export const CookieBotAppExtra = (props) => {
   const language = useSelector((state) => state.intl.locale);
 
   return (
-    <CookieBot domainGroupId={domainGroupId} language={language || undefined} />
+    <CookieBot domainGroupId={domainGroupId} language={language || 'en'} />
   );
 };
