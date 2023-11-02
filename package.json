@@ -1,6 +1,6 @@
 {
   "name": "@codesyntax/volto-cookiebot",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "volto-cookiebot: Volto add-on",
   "main": "src/index.js",
   "license": "MIT",
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@plone/scripts": "*",
-    "release-it": "^15.6.0"
+    "release-it": "^15.11.0"
   },
   "dependencies": {
     "react-cookiebot": "1.0.10"
