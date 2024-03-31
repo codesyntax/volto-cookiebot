@@ -3,7 +3,6 @@ const plugins = (defaultPlugins) => {
 };
 
 const modify = (config, { target, dev }, webpack) => {
-
   config.resolve.extensions = [
     ...(config.resolve?.extensions || []),
     '.web.js',
