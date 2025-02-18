@@ -42,7 +42,10 @@ jobs:
           # compare the current branch with the base branch.
           # Source: https://github.com/actions/checkout/#fetch-all-branches.
           git fetch --no-tags origin main
-          towncrier check --compare-with origin/main
+          if ! towncrier check --compare-with origin/main; then
+            echo "No new newsfragments found. Please add a changelog fragment."
+            exit 1
+          fi
         env:
           BASE_BRANCH: ${{ github.base_ref }}
         if: github.event_name == 'pull_request'
