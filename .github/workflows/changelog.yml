@@ -7,7 +7,7 @@ on:
 
 env:
   NODE_VERSION: 20.x
-  ADDON_NAME: volto-featured-block
+  ADDON_NAME: volto-cookiebot
 
 jobs:
   build:
