@@ -17,7 +17,12 @@ jobs:
           # Fetch all history
           fetch-depth: '0'
 
-      - name: Install pipx
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install towncrier
         run: pip install towncrier
 
       # node setup
@@ -33,7 +38,7 @@ jobs:
 
       - name: Check for presence of a Change Log fragment (only pull requests)
         run: |
-          # Fetch the pull request' base branch so towncrier will be able to
+          # Fetch the pull request's base branch so towncrier will be able to
           # compare the current branch with the base branch.
           # Source: https://github.com/actions/checkout/#fetch-all-branches.
           git fetch --no-tags origin main
