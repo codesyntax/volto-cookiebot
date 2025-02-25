@@ -6,7 +6,7 @@ An addon to integrate [Cookiebot](https://www.cookiebot.com/es/) in a Volto site
 
 ## Installation
 
-Add `@codesyntax/volto-cookiebot` to your project dependencies and to the `addons` list.
+Add `volto-cookiebot` to your project dependencies and to the `addons` list.
 
 ## Configuration
 
