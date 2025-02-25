@@ -1,12 +1,12 @@
 # volto-cookiebot
-[![npm version](https://badge.fury.io/js/volto-cookiebot.svg)](https://badge.fury.io/js/volto-cookiebot)
+[![npm version](https://badge.fury.io/js/@codesyntax%2Fvolto-cookiebot.svg)](https://badge.fury.io/js/@codesyntax%2Fvolto-cookiebot)
 
 An addon to integrate [Cookiebot](https://www.cookiebot.com/es/) in a Volto site
 
 
 ## Installation
 
-Add `volto-cookiebot` to your project dependencies and to the `addons` list.
+Add `@codesyntax/volto-cookiebot` to your project dependencies and to the `addons` list.
 
 ## Configuration
 
