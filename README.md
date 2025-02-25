@@ -1,4 +1,5 @@
 # volto-cookiebot
+[![npm version](https://badge.fury.io/js/volto-cookiebot.svg)](https://badge.fury.io/js/volto-cookiebot)
 
 An addon to integrate [Cookiebot](https://www.cookiebot.com/es/) in a Volto site
 
