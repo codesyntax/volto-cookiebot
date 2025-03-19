@@ -13,9 +13,10 @@ export const CookieBotAppExtra = (props) => {
     return null;
   }
   if (domainGroupId.length !== 36) {
+    /* eslint-disable-next-line no-console */
     console.warn(
       `The cookie bot domain group id is ${domainGroupId.length} characters, instead it should be 36 characters!`,
-    ); // eslint-disable-line no-console
+    );
   }
   const script = document.createElement('script');
   script.setAttribute('id', 'CookieBot');
