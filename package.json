@@ -35,7 +35,7 @@
   "dependencies": {
     "@plone/volto": "workspace:*",
     "@plone/registry": "workspace:*",
-    "volto-cookiebot": "workspace:*"
+    "@codesyntax/volto-cookiebot": "workspace:*"
   },
   "devDependencies": {
     "mrs-developer": "^2.2.0"

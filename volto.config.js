@@ -1,4 +1,4 @@
-const addons = ['volto-cookiebot'];
+const addons = ['@codesyntax/volto-cookiebot'];
 const theme = '';
 
 module.exports = {
