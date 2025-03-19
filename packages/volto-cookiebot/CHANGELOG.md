@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0 (2025-03-19)
+
+### Breaking
+
+- remove react-cookiebot and develop it in a native way @ionlizarazu [#12](https://github.com/codesyntax/volto-cookiebot/issue/12)
+
 ## 1.2.1 (2025-02-18)
 
 ## 1.2.0 (2025-02-18)
